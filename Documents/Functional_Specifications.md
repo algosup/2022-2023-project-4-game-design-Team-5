@@ -50,7 +50,28 @@ The goal of this project is to create an innovative game ( the genre and the the
 
 ## Personas
 
+Name: Jean
+Age: 76
+Bio: He retired some months ago but has been wondering how to entertain himself recently and wants to try a new game.
+Favorite game genre: Not defined for the moment
 
+
+Name: Marie
+Age: 25
+Bio: She is a student and is looking for a new game to play during her free time.
+Favorite game genre: Fantastic
+
+
+Name: Pierre
+Age: 35
+Bio: He is a worker and is looking for another game that would be fun to play.
+Favorite game genre: Action
+
+
+Name: Paul
+Age: 17
+Bio: He his a student and wants to find a game to play during his holidays.
+Favorite game genre: Adventure
 
 ## Objectives
 
