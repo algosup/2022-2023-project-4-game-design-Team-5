@@ -77,28 +77,32 @@ The Pause menu will be the menu that will appear when the player will pause the 
 
 ## Personas
 
-Name: Jean
-Age: 76
-Bio: He retired some months ago but has been wondering how to entertain himself recently and wants to try a new game.
-Favorite game genre: Not defined for the moment
+<ins>Name:</ins> Jean <br>
+<ins>Age:</ins> 76 <br>
+<ins>Bio:</ins> He retired some months ago but has been wondering how to entertain himself recently and wants to try a new game. <br>
+<ins>Favorite game genre:</ins> Not defined for the moment <br>
+<ins>Type of player:</ins> Will play for fun <br>
 
 
-Name: Marie
-Age: 25
-Bio: She is a student and is looking for a new game to play during her free time.
-Favorite game genre: Fantastic
+<ins>Name:</ins> Marie <br>
+<ins>Age:</ins> 25 <br>
+<ins>Bio:</ins> She is a student and is looking for a new game to play during her free time. <br>
+<ins>Favorite game genre:</ins> Fantastic <br>
+<ins>Type of player:</ins> Will try to finish the game slowly <br>
 
 
-Name: Charles-Henri
-Age: 35
-Bio: He is a worker and is looking for another game that would be fun to play.
-Favorite game genre: Action
+<ins>Name:</ins> Charles-Henri <br>
+<ins>Age:</ins> 35 <br>
+<ins>Bio:</ins> He is a worker and is looking for another game that would be fun to play. <br>
+<ins>Favorite game genre:</ins> Action <br>
+<ins>Type of player:</ins> Will get easily frustrated and bored <br> 
 
 
-Name: Paul
-Age: 17
-Bio: He his a student and wants to find a game to play during his holidays.
-Favorite game genre: Adventure
+<ins>Name:</ins> Paul <br>
+<ins>Age:</ins> 17 <br>
+<ins>Bio:</ins> He his a student and wants to find a game to play during his holidays. <br>
+<ins>Favorite game genre:</ins> Adventure <br>
+<ins>Type of player:</ins> Will try to finish the game at 100% as fast as possible <br>
 
 ## Use cases
 
