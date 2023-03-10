@@ -73,7 +73,16 @@ The Pause menu will be the menu that will appear when the player will pause the 
 
 ### Mechanics
 
-----
+The mechanics of the game will be the following:
+
+| Mechanic's name | Description |
+| -------------- | ----------- |
+| **Deadly objects** | The player will have to avoid some obstacles that will kill him if he stays too long close to it. ( e.g. water, heat, etc...) |
+| **Sticky** | The player will have to use the sticky mechanic to be able to stick to allowed walls to cross gaps between places. |
+| **Catapult** | The player will have to use objects that allow him to launch himself. |
+| **Portals** | The player will have to use one-way portals to be able to teleport himself. |
+
+
 
 ## Personas
 
