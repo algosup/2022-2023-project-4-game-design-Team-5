@@ -9,6 +9,7 @@ Table of contents
 * [Objectives](#objectives)
 * [Requirements](#requirements)
 * [Functionalities](#functionalities)
+* [Non-functional Requirements](#non-functional-requirements)
 * [Personas](#personas)
 * [Use cases](#use-cases)
 * [Testing](#testing)
@@ -90,6 +91,13 @@ The mechanics of the game will be the following:
 | **Catapult** | The player will have to use objects that allow him to launch himself. |
 | **Portals** | The player will have to use one-way portals to be able to teleport himself. |
 
+
+## Non-functional Requirements
+
+- The game will be solo-player only.
+- The game will be in 3D.
+- The game will be in English.
+- It will work on Windows.
 
 
 ## Personas
