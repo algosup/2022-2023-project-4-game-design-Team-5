@@ -104,7 +104,7 @@ The mechanics of the game will be the following:
 
 <ins>Name:</ins> Jean <br>
 <ins>Age:</ins> 76 <br>
-<ins>Bio:</ins> He retired some months ago but has been wondering how to entertain himself recently and wants to try a new game. <br>
+<ins>Bio:</ins> He's retired since few months ago but have been wondering how to entertain himself recently and wants to try a new game. <br>
 <ins>Favorite game genre:</ins> Not defined for the moment <br>
 <ins>Type of player:</ins> Will play for fun <br>
 
