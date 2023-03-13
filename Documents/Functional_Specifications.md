@@ -68,7 +68,7 @@ For this project, the main objectives are:
 The main menu will be the first menu that the player will see when he starts the game.
 In this menu, the player will have the choice to start the game or to quit the game.
 
-Here is the first version of the main menu from the prototype:
+Here is the first version of the main menu of the prototype:
 
 ![First Main Menu](https://cdn.discordapp.com/attachments/641190235581054986/1083769795683565738/image.png)
 
