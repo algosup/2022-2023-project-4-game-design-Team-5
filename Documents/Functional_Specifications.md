@@ -44,7 +44,7 @@ The goal of this project is to create an innovative game ( the genre and the the
 ### Game Description
 
 Each sugar cube as only one duty, to sweeten a coffee. You will follow the adventures of Sube, a sugar cube, that has been thrown away by mistake and is now trying to go into the coffee. Help Sube navigate through obstacles and reach the coffee cup.
-You will be able to go through countless adventures and levels with Sube all around the house to find the cup and finally sweeten the coffee. Sube will be able to use the environment to his advantage to reach the cup, but be careful, there is things that a sugar should not approach.
+You will be able to go through countless adventures and levels with Sube all around the house to find the cup and finally sweeten the coffee. Sube will be able to use the environment to his advantage to reach the cup, but be careful, there are things that a sugar should not approach.
 
 
 ## Objectives
