@@ -70,7 +70,7 @@ In this menu, the player will have the choice to start the game or to quit the g
 
 Here is the first version of the main menu of the prototype:
 
-![First Main Menu](https://cdn.discordapp.com/attachments/641190235581054986/1083769795683565738/image.png)
+![First Main Menu](https://github.com/algosup/2022-2023-project-4-game-design-Team-5/blob/Project_Documents/Documents/Pictures/menu_mock-up.png)
 
 ### Pause Menu
 
