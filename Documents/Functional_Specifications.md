@@ -154,7 +154,7 @@ Paul would not really pay attention to the narrator and would try to understand 
 
 ## Testing
 
-The game will be tested by the team members during the conception and after the conception of the game. The game will be tested by the client and the stakeholders at the end of the project.
+The team members will test the game during the conception and after the beginning of the game. The game will be tested by the client and the stakeholders at the end of the project.
 
 
 ## Risks
