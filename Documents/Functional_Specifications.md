@@ -60,7 +60,7 @@ For this project, the main objectives are:
 
 - We must use Unreal Engine 4.27.
 - We must have a playable version of the game by the end of the project.
-- We must have a game that give the player a good experience.
+- We must have a game that gives the player a good experience.
 
 ## Functionalities
 
