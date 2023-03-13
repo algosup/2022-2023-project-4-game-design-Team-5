@@ -78,7 +78,7 @@ The Pause menu will be the menu that will appear when the player will pause the 
 
 Here is the first version of the pause menu from the prototype:
 
-![First Pause Menu](https://cdn.discordapp.com/attachments/641190235581054986/1083769841946738708/image.png)
+![First Pause Menu](https://github.com/algosup/2022-2023-project-4-game-design-Team-5/blob/Project_Documents/Documents/Pictures/pause_mock-up.png)
 
 ### Mechanics
 
