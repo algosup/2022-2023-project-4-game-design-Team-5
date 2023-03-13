@@ -138,7 +138,7 @@ Each use case will be considered as having these steps already done:
 
 ### Use case 1: Jean
 
-Jean would listen carefully to the instructions given by the narrator to understand how he has to play the game. He would slowly try to reach the coffee cup. His goal would be to have fun playing the game and would probably search on internet for the solution to the levels if he gets stuck. Once he has finished the game, he would probably search for another game to play.
+Jean would listen carefully to the instructions given by the narrator to understand how he has to play the game. He would slowly try to reach the coffee cup. His goal would be to have fun playing the game and would probably search on the internet for the solution to the levels if he gets stuck. Once he has finished the game, he would probably search for another game to play.
 
 ### Use case 2: Marie
 
