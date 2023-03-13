@@ -146,7 +146,7 @@ Marie would not really pay attention to the narrator and would try to understand
 
 ### Use case 3: Charles-Henri
 
-Charles-Henri would try to understand all the things the narrator explained before even trying to move and would be very careful when he would play the game. He would probably try to find the solution to the levels by himself and would not search on internet if he gets stuck. When he has finished the game, he won't try to play it again as he would get bored playing it again.
+Charles-Henri would try to understand all the things the narrator explained before even trying to move and would be very careful when he would play the game. He would probably try to find the solution to the levels by himself and would not search on the internet if he gets stuck. When he has finished the game, he won't try to play it again as he would get bored playing it again.
 
 ### Use case 4: Paul
 
