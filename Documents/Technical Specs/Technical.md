@@ -203,7 +203,7 @@ Obstacles will be placed in the level to prevent the player from reaching the cu
 Obstacles will be items integrated in the environment and might take any forms ( Wall, plate, etc. ).
 Each obstacle will have a collision box for the player to not glitch through it.
 Each obstacle will have a material to make it visible.
-Each obstacles placement and details will be define in the [level section]().
+Each obstacles placement and details will be define in the [Level section](#level).
 
 ### Sticky
 
@@ -273,7 +273,7 @@ The discussion will be represented as a text box.
 The discussion will be triggered by the player and will be a one way communication.
 It will be used to give the player a hint or lore about the game.
 Each discussion will be triggered by a specific NPC.
-Each discussion will be unique and will depends on the level (cf [Levels]()).
+Each discussion will be unique and will depends on the level (cf [Level](#level)).
 
 ## UI
 
