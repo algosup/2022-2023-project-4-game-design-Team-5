@@ -150,7 +150,7 @@ Charles-Henri would try to understand all the things the narrator explained befo
 
 ### Use case 4: Paul
 
-Paul would not really pay attention to the narrator and would try to understand the mechanics all by himself. He would try to look for every hidden secrets in the game. He won't search anything on internet and try to find the solution to the levels by himself. When he has finished the game, he would try to do all the game in less time than the first time he played it.
+Paul would not really pay attention to the narrator and would try to understand the mechanics all by himself. He would try to look for every hidden secret in the game. He won't search anything on the internet and try to find the solution to the levels by himself. When he has finished the game, he would try to do all the game in less time than the first time he played it.
 
 ## Testing
 
