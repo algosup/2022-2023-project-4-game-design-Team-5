@@ -142,7 +142,7 @@ Jean would listen carefully to the instructions given by the narrator to underst
 
 ### Use case 2: Marie
 
-Marie would not really pay attention to the narrator and would try to understand the mechanics all by herself. She would try to look everywhere to look at the graphics of the game. She would probably try to find the solution to the levels by herself and would not search on internet if she gets stuck. Once she has finished the game, she would certainly play it again to try to find all the secrets but would quickly search for another game to play.
+Marie would not really pay attention to the narrator and would try to understand the mechanics all by herself. She would try to look everywhere to look at the graphics of the game. She would probably try to find the solution to the levels by herself and would not search on the internet if she gets stuck. Once she has finished the game, she would certainly play it again to try to find all the secrets but would quickly search for another game to play.
 
 ### Use case 3: Charles-Henri
 
