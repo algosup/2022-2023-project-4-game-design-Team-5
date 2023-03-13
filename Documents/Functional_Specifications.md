@@ -39,7 +39,7 @@ The goal of this project is to create an innovative game ( the genre and the the
 | [Milestone 1](https://github.com/algosup/2022-2023-project-4-game-design-Team-5/milestone/1) | Create a One-Sheet Document | 2023-03-03 |
 | [Milestone 2](https://github.com/algosup/2022-2023-project-4-game-design-Team-5/milestone/2) | Create a prototype of the game | 2023-03-10 |
 | [Milestone 3](https://github.com/algosup/2022-2023-project-4-game-design-Team-5/milestone/3) | Crete a playable version of the game for a demo | 2023-03-24 |
-| Milestone 4 | Create a final version of the game to present | 2023-04-14 |
+| [Milestone 4](https://github.com/algosup/2022-2023-project-4-game-design-Team-5/milestone/4) | Create a final version of the game to present | 2023-04-14 |
 
 ### Game Description
 
