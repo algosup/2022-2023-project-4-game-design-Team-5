@@ -5,6 +5,7 @@ Table of content
 
 - [General](#general)
   - [Introduction](#introduction)
+  - [Glossary](#glossary)
 - [Requirements](#requirements)
   - [Unreal Engine](#unreal-engine)
   - [Github](#github)
@@ -74,6 +75,28 @@ Table of content
 The goal of this document is to define the technical specifications of the project.
 It will be used to define the requirements and the conventions of the project.
 As well as the tools we will use.
+
+## Glossary
+
+- **MVP**: Minimum Viable Product
+- **Asset**: A file that can be imported in Unreal Engine
+- **Perforce**: A version control system (Similar to Git)
+- **GitLab**: A version control system (Similar to Github)
+- **GitHub**: A version control system
+- **Blueprint**: A file that can be created in Unreal Engine
+- **Material**: A file that can be created in Unreal Engine
+- **Texture**: A file that can be created in Unreal Engine
+- **Animation**: A file that can be created in Unreal Engine
+- **Plugin**: A file that can be created in Unreal Engine
+- **Sube**: The main character of the game
+- **NPC**: Non-Playable Character
+- **UI**: User Interface
+- **HUD**: Heads-Up Display
+- **Dialogue**: A text that appears on the screen
+- **Cutscene**: A sequence of events that are not controlled by the player
+- **Level**: A map of the game
+- **Blur**: A visual effect that makes the image blurry
+- **Lore**: A story that is not directly related to the gameplay
 
 # Requirements
 
@@ -360,7 +383,7 @@ The catapult will have the animation of a spoon throwing a sugar cube.
 ### Teleporter
 
 The teleporter while have a screen animation.
-It will fade out the game and fade in the new location.
+It will fade-out the game and fade-in the new location.
 
 ## Cutscene
 
