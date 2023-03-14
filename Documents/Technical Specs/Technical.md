@@ -56,6 +56,7 @@ Table of content
   - [Level Design](#level-design)
     - [Level 1](#level-1)
     - [Level 2](#level-2)
+    - [Level 3](#level-3)
   - [Lighting](#lighting)
 - [Softwares](#softwares)
   - [Unreal Engine](#unreal-engine-1)
@@ -418,6 +419,31 @@ If the player stay less than 3 seconds in the water, he will go through it and b
 
 On the second path, the player will go through water and won't be able to go through it because it will be a big amount of water.
 It will take more than 3 seconds to go through it. Which means that the player will die.
+
+### Level 3
+
+The third level will be a simple level with a start and an end.
+It will introduce the player to the sticky feature.
+The level will take place on the floor near the coffee table.
+
+It will start with a small cutscene that will show a human taking is coffee and moving it to the coffee table.
+The human will also sit on the sofa.
+The camera will come back to Sube and a catapult will throw him from the desk to the floor ( Cutscene ).
+That's when the level starts and we take control of Sube.
+
+![Level 3 map](../Pictures/Level_3.png)
+
+In this level, the player will have to go through the sticky feature.
+He will have to go on the right side of the sofa to climb the wall.
+He will then have to get on the sofa to reach the coffee table.
+
+If the player fall of the sofa, he will die and will be teleported to the start of the level.
+
+If the player go on the left side of the sofa (Floor), he will meet an old sugar cube.
+The old sugar cube will be a simple sugar cube that will be stuck to the floor.
+By pressing the interaction key, he will be able to talk to him.
+The old sugar cube will tell him that he is exausted and that he can't move anymore.
+He will then tell him that there is nothing here and that he should search somewhere else.
 
 
 ## Lighting
