@@ -288,10 +288,9 @@ It is generated using [MidJourney](https://www.midjourney.com/).
 This image is under the license [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 It's restricted to non-commercial use.
 For each clickable button, there will be an asset for the normal state and another asset when it's hovered.
-Idle button:
-![Idle](../Pictures/button_bg.png)
-Hovered button:
-![Hovered](../Pictures/button_bg_hover.png)
+| Idle button | Hovered button |
+| ----------- | -------------- |
+| ![Idle](../Pictures/button_bg.png) | ![Hovered](../Pictures/button_bg_hover.png) |
 Each button will be anchored to the left.
 The menu will be at 30% from the top of the screen.
 Buttons will be spaced by 30 pixels verticaly.
@@ -305,10 +304,10 @@ The menu will be at 30% from the top of the screen.
 Buttons will be spaced by 30 pixels verticaly.
 Each button will be anchored to the left.
 For each clickable button, there will be an asset for the normal state and another asset when it's hovered.
-Idle button:
-![Idle](../Pictures/button_bg.png)
-Hovered button:
-![Hovered](../Pictures/button_bg_hover.png)
+| Idle button | Hovered button |
+| ----------- | -------------- |
+| ![Idle](../Pictures/button_bg.png) | ![Hovered](../Pictures/button_bg_hover.png) |
+
 
 ### HUD
 
