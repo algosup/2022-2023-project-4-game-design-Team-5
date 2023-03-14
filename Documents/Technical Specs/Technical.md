@@ -55,6 +55,7 @@ Table of content
 - [Level](#level)
   - [Level Design](#level-design)
     - [Level 1](#level-1)
+    - [Level 2](#level-2)
   - [Lighting](#lighting)
 - [Softwares](#softwares)
   - [Unreal Engine](#unreal-engine-1)
@@ -394,6 +395,30 @@ If the player fall of the desk, he will die and will be teleported to the start 
 If the player doesn't move for 5 seconds, a hint dialogue will appear.
 The hint dialogue will be a simple dialogue box with a text.
 It will explain to the player that he can move by pressing the ZQSD keys.
+
+### Level 2
+The second level will be a simple level with a start and an end.
+It will introduce the player to the water feature.
+The level will take place on the work plan near the sink and around the sink.
+
+It will start by a small cutscene that will show a human moving the coffee cup to the other side of the sink.
+The camera will come back to Sube and we will take control of him.
+That's when the level starts.
+
+![Level 2 map](../Pictures/Level_2.png)
+
+If the player fall of the desk, he will die and will be teleported to the start of the level.
+There is 2 path possible.
+
+- the first one is os the void side of the desk, it is the intended path.
+- the second one is on the wall side of the desk, it is the unintended path.
+
+On the first path, the player will go through water and will be able to go through it because it will be a small amount of water. 
+If the player stay less than 3 seconds in the water, he will go through it and be able to reach the end of the level.
+
+On the second path, the player will go through water and won't be able to go through it because it will be a big amount of water.
+It will take more than 3 seconds to go through it. Which means that the player will die.
+
 
 ## Lighting
 
