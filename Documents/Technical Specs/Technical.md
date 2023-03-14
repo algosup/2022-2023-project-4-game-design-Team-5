@@ -54,6 +54,7 @@ Table of content
     - [Intro](#intro)
 - [Level](#level)
   - [Level Design](#level-design)
+    - [Level 1](#level-1)
   - [Lighting](#lighting)
 - [Softwares](#softwares)
   - [Unreal Engine](#unreal-engine-1)
@@ -373,6 +374,27 @@ This is when Sube will get out of the sugar bag and will start to move.
 # Level
 
 ## Level Design
+
+### Level 1
+The first level will be a simple level with a start and an end.
+It will help the player to get used to the game and the controls.
+The level will take place on the work plan near the sink.
+
+It will start by a small cutscene that will show a human preparing a coffee.
+He will come to the desk and will put coffee in the cup.
+He will then receive a phone call and will leave the coffee.
+He will move the cup of coffee to the Objective.
+The camera will travel to the sugar bag and we will see Sube getting out of the bag.
+The camera will travel to Sube and we will take control of him.
+That's when the level starts.
+
+![Level 1 map](../Pictures/Level_1.png)
+
+If the player fall of the desk, he will die and will be teleported to the start of the level.
+
+If the player doesn't move for 5 seconds, a hint dialogue will appear.
+The hint dialogue will be a simple dialogue box with a text.
+It will explain to the player that he can move by pressing the ZQSD keys.
 
 ## Lighting
 
