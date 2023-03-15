@@ -260,6 +260,8 @@ There is no laucnh control, air control or gravity control.
 The controls will be desactivated while the player is in the air.
 The catapult have an animation.
 
+The catapult will be triggered by the player when he press the action key (E by default) while being in the back of the spoon.
+
 ### Teleport
 
 Teleport will be a mechanic that will allow the player to teleport to a specific location.
