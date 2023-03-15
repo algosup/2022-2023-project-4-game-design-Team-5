@@ -78,25 +78,27 @@ As well as the tools we will use.
 
 ## Glossary
 
-- **MVP**: Minimum Viable Product
-- **Asset**: A file that can be imported in Unreal Engine
-- **Perforce**: A version control system (Similar to Git)
-- **GitLab**: A version control system (Similar to Github)
-- **GitHub**: A version control system
-- **Blueprint**: A file that can be created in Unreal Engine
-- **Material**: A file that can be created in Unreal Engine
-- **Texture**: A file that can be created in Unreal Engine
-- **Animation**: A file that can be created in Unreal Engine
-- **Plugin**: A file that can be created in Unreal Engine
-- **Sube**: The main character of the game
-- **NPC**: Non-Playable Character
-- **UI**: User Interface
-- **HUD**: Heads-Up Display
-- **Dialogue**: A text that appears on the screen
-- **Cutscene**: A sequence of events that are not controlled by the player
-- **Level**: A map of the game
-- **Blur**: A visual effect that makes the image blurry
-- **Lore**: A story that is not directly related to the gameplay
+| Term | Definition |
+| --- | --- |
+| **MVP**: | Minimum Viable Product |
+| **Asset**: | A file that can be imported in Unreal Engine |
+| **Perforce**: | A version control system (Similar to Git) (cf [Link](https://www.perforce.com/products/helix-core)) |
+| **GitLab**: | A version control system (Similar to Github) (cf [Link](https://about.gitlab.com/)) |
+| **GitHub**: | A version control system (cf [Link](https://github.com/)) |
+| **Blueprint**: | A file that can be created in Unreal Engine |
+| **Material**: | A file that can be created in Unreal Engine |
+| **Texture**: | A file that can be created in Unreal Engine |
+| **Animation**: | A file that can be created in Unreal Engine |
+| **Plugin**: | A file that can be created in Unreal Engine |
+| **Sube**: | The main character of the game |
+| **NPC**: | Non-Playable Character |
+| **UI**: | User Interface |
+| **HUD**: | Heads-Up Display |
+| **Dialogue**: | A text that appears on the screen |
+| **Cutscene**: | A sequence of events that are not controlled by the player |
+| **Level**: | A map of the game |
+| **Blur**: | A visual effect that makes the image blurry |
+| **Lore**: | A story that is not directly related to the gameplay |
 
 # Requirements
 
