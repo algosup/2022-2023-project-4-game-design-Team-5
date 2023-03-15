@@ -354,6 +354,9 @@ The box will be on the top right of the screen.
 The size of the box will depends on the content of the text.
 The box will be anchored to the top right.
 
+The player won't be able to trigger the dialogue box manually.
+It would be automatically triggered if the player idle for more than 15.00 sec.
+
 #### Lore Dialogue
 
 Lore dialogue are meant to give the player some lore about the game.
