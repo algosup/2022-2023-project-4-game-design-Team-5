@@ -138,7 +138,7 @@ They will be in the 'Blueprint' folder. Except for blueprints imported with an a
 
 ### Branch
 
-Each branch must be named in English and have a meaningfull name.
+Each branch must be named in English and have a meaningful name.
 There will be a branch for:
 
 - The main branch
