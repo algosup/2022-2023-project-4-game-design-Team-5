@@ -118,7 +118,7 @@ We also need to expand storage space for our project ( due to the size of the as
 ## Naming
 
 Folders, files, Class, functions, variables must be named in English and in Pascal Snake Case.
-Everythings must be in English and have a meaningfull name.
+Everything must be in English and have a meaningful name.
 
 ## Folder / File
 
