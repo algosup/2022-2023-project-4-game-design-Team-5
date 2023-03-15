@@ -216,10 +216,12 @@ The player will be able to move at a constant speed.
 The player will be able to move in 4 directions (Up / Down / Left / Right).
 Each direction will be mapped to a key.
 
-- Forward: Z
-- Backward: S
-- Left: Q
-- Right: D
+| Key | Direction |
+| --- | --------- |
+| Z   | Up        |
+| S   | Down      |
+| Q   | Left      |
+| D   | Right     |
 
 Each key when pressed will trigger a movement in the corresponding direction.
 They will also trigger the associated animation for the cube to move.
@@ -242,10 +244,12 @@ And will stay activated as long as the player stay in that zone and follow the p
 The controls stay relative to the camera.
 It means old controls become as follow:
 
-- Forward: Z -> Forward
-- Backward: S -> Backward
-- Left: Q -> Down
-- Right: D -> Up
+| | Key | Action |
+| --- | --- | --- |
+| Forward | Z | Forward |
+| Backward | S | Backward |
+| Left | Q | Down |
+| Right | D | Up |
   
 If the player is sticked to a wall and decide to leave the predefined path, the sticky mechanic will be deactivated and the player will fall resulting in a death.
 
@@ -341,8 +345,19 @@ For each clickable button, there will be an asset for the normal state and anoth
 
 ### HUD
 
-The game won't have a HUD.
-No data as life point, experience, etc is in the game.
+The HUD will display the player's current life state.
+It won't be displayed in the normal state.
+
+The HUD will only be displayed if the player enter Water or Heat.
+For the water, the HUD will fade-in when the player enter the water and fade-out when the player exit the water.
+For the heat, the HUD will fade-in when the player enter the heat and fade-out when the player exit the heat.
+
+It will be an oerlay on the screen.
+It will take the entire screen.
+Center of screen will be less affected than the sides of the screen.
+It will slowly blur the screen.
+In white for the water.
+In orange for the heat.
 
 ### Dialogue
 
