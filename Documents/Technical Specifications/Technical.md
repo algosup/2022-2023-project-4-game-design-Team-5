@@ -147,25 +147,25 @@ There will be a branch for:
 - The main branch
 - MVP Branch
 - Demo branch
-- One for each functionnalities
+- One for each Functionalities
 
 ### Commit
 
-Each commit must be named in English and have a meaningfull name.
+Each commit must be named in English and have a meaningful name.
 Multiple commits can be done in one branch.
 Commit as much as possible, it will help us to keep track of the changes.
 You can commit not working code, as long as it's not pushed.
 
 ### Pull Request
 
-Each pull request must be named in English and have a meaningfull name.
+Each pull request must be named in English and have a meaningful name.
 Each pull request must be reviewed and approved by at least one other person.
 Each pull request must be merged by the person who created the pull request.
 Each pull request must have a description of the changes made.
 
 ### Issue
 
-Each issue must be named in English and have a meaningfull name.
+Each issue must be named in English and have a meaningful name.
 Each issue must be assigned to a person.
 Each issue must have a description of the problem (c.f [Issues](https://github.com/algosup/2022-2023-project-4-game-design-Team-5/issues)).
 
@@ -183,18 +183,18 @@ All materials and textures are already made and applied to the asset.
 
 Sube is the main character and is a sugar cube.
 For the MVP, Sube will be a simple cube with a material of sugar applied to it.
-For the final version, Sube will be a 3D model of a sugar cube with a material of sugar applied to it. It will have to be designed by us on Blender.
+For the final version, Sube will be a 3D model of a sugar cube with a material of sugar applied to it. It will have to be designed by our team on Blender.
 
 ### NPC
 
-Npc are going to be other sugar cubes that will be used to interact with the player.
+Npc will be other sugar cubes that will be used to interact with the player.
 It may be used to give the player a hint or lore about the game.
-For the MVP, Npc will be a simple cube with a material of sugar applied to it.
-For the final version, Npc will be a 3D model of a sugar cube with a material of sugar applied to it. It will have to be designed by us on Blender.
+For the MVP, NPCs will be simple cubes with a material of sugar applied to it.
+For the final version, NPCs will be a 3D model of a sugar cube with a material of sugar applied to it. They will also be designed by our team on Blender.
 
 ## Plugin
 
-Gravity change plugin is a plugin that allows us to change the gravity of the player. It is available [here](https://www.unrealengine.com/marketplace/en-US/product/directional-planet-gravity). It is free to use for non-commercial projects. It will be used for the sticky functionnality.
+Gravity change plugin is a plugin that allows us to change the gravity of the player. It is available [here](https://www.unrealengine.com/marketplace/en-US/product/directional-planet-gravity). It is free to use for non-commercial projects. It will be used for the sticky Functionality.
 
 # Gameplay
 
@@ -207,7 +207,7 @@ The game will be separated in levels. Each level will move the cup of coffee fur
 
 ## Mechanics
 
-Each mechanic will be explained in details here.
+Each mechanics will be listed and explained in details here.
 
 ### Movement
 
@@ -222,8 +222,8 @@ Each direction will be mapped to a key.
 - Right: D
 
 Each key when pressed will trigger a movement in the corresponding direction.
-The will also trigger the associated animation for the cube to move.
-While the cube is moving, any other interractions will be disabled to avoid unwanted behavior.
+They will also trigger the associated animation for the cube to move.
+While the cube is moving, any other interaction will be disabled to avoid unwanted behavior.
 
 ### Obstacle
 
@@ -266,7 +266,7 @@ Teleport will be a mechanic that will allow the player to teleport to a specific
 It will be represented as mouse hole.
 It will activate when the player enter the mouse hole.
 It will teleport the player to the other side of the mouse hole.
-The teleport will be instant.
+Teleportation will be instantaneous.
 It will be one sided ( No come back ).
 It have an animation.
 
@@ -289,7 +289,7 @@ To keep the gameplay fluid, the player will be teleported to the start of the le
 
 #### Death by heat
 
-The player will die if he stay in the heat for more than 5.00 sec.
+The player will die if he stays in the heat for more than 5.00 sec.
 This obstacle will be represented as a light.
 To keep the gameplay fluid, the player will be teleported to the start of the level when he stay in the heat for more than 5.00 sec.
 
@@ -354,10 +354,10 @@ The box will be anchored to the top right.
 #### Lore Dialogue
 
 Lore dialogue are meant to give the player some lore about the game.
-They are displayed as if a NPC was talking to the player.
+They are displayed as if a NPC is talking to the player.
 The lore dialogue will be a simple dialogue box with a text.
 The text will be in the middle of the box.
-The box will be on the person who is talking.
+The box will be above the person who is talking.
 The size of the box will depends on the content of the text.
 
 ## Audio
@@ -436,7 +436,7 @@ That's when the level starts.
 If the player fall of the desk, he will die and will be teleported to the start of the level.
 There is 2 path possible.
 
-- the first one is os the void side of the desk, it is the intended path.
+- the first one is in the 'void' side of the desk, it is the intended path.
 - the second one is on the wall side of the desk, it is the unintended path.
 
 On the first path, the player will go through water and will be able to go through it because it will be a small amount of water. 
