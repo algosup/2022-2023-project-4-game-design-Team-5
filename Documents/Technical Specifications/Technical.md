@@ -210,6 +210,9 @@ The game will be separated in levels. Each level will move the cup of coffee fur
 
 ## Camera
 
+The camera will be a third person camera. It will be placed behind the player and will follow it.
+The camera won't be able to rotate. It will always be in the same position.
+
 ## Mechanics
 
 Each mechanics will be listed and explained in details here.
