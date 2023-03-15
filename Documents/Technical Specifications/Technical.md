@@ -81,6 +81,7 @@ As well as the tools we will use.
 | Term | Definition |
 | --- | --- |
 | **MVP**: | Minimum Viable Product |
+| **WIP**: | Work In Progress |
 | **Asset**: | A file that can be imported in Unreal Engine |
 | **Perforce**: | A version control system (Similar to Git) (cf [Link](https://www.perforce.com/products/helix-core)) |
 | **GitLab**: | A version control system (Similar to Github) (cf [Link](https://about.gitlab.com/)) |
