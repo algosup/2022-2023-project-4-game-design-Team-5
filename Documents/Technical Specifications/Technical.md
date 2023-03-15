@@ -111,7 +111,6 @@ We also need to expand storage space for our project ( due to the size of the as
 
 - Perforce doesn't solve the problem (Files still to big for Github).
 - Self-hosted Gitlab doesn't solve the problem (Won't appear on Github).
-- Self-hosted Github doesn't solve the problem (Won't appear on Github).
 - Private External SSD doesn't solve the problem (Won't appear on Github and limit to 1 person working).
 
 # Convention
