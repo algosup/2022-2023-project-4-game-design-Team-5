@@ -493,7 +493,7 @@ He will then have to get on the sofa to reach the coffee table.
 
 If the player fall of the sofa, he will die and will be teleported to the start of the level (cf [Death by falling](#death-by-falling)).
 
-If the player go on the left side of the sofa (Floor), he will meet an old sugar cube (cf [NPC](#npc)).
+If the player go on the left side of the sofa (Floor), he will meet an old sugar cube (cf [NPC](#npc) and [Discuss](#discuss)).
 The old sugar cube will be a simple sugar cube that will be stuck to the floor.
 By pressing the interaction key, he will be able to talk to him.
 The old sugar cube will tell him that he is exausted and that he can't move anymore.
