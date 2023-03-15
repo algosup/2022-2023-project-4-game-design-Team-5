@@ -160,7 +160,7 @@ You can commit WIP code, as long as it's not merged in the main branch.
 
 Each pull request must be named in English and have a meaningful name.
 Each pull request must be reviewed and approved by at least one other person.
-Each pull request must be merged by the person who created the pull request.
+Each pull request must be merged by the person who created it or by a *maintainer*.
 Each pull request must have a description of the changes made.
 
 ### Issue
