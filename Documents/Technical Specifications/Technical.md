@@ -154,7 +154,7 @@ There will be a branch for:
 Each commit must be named in English and have a meaningful name.
 Multiple commits can be done in one branch.
 Commit as much as possible, it will help us to keep track of the changes.
-You can commit not working code, as long as it's not pushed.
+You can commit WIP code, as long as it's not merged in the main branch.
 
 ### Pull Request
 
@@ -290,7 +290,7 @@ To keep the gameplay fluid, the player will be teleported to the start of the le
 #### Death by heat
 
 The player will die if he stays in the heat for more than 5.00 sec.
-This obstacle will be represented as a light.
+This obstacle will be represented as a light source with *rays* to determine the surface heated by the corresponding light.
 To keep the gameplay fluid, the player will be teleported to the start of the level when he stay in the heat for more than 5.00 sec.
 
 ### Discuss
@@ -302,6 +302,7 @@ The discussion will be triggered by the player and will be a one way communicati
 It will be used to give the player a hint or lore about the game.
 Each discussion will be triggered by a specific NPC.
 Each discussion will be unique and will depends on the level (cf [Level](#level)).
+The player will me able to trigger again the dialog if he press the trigger key again.
 
 ## UI
 
@@ -370,7 +371,7 @@ Here is the music: [Music](../Sound/Background_Music.mp3)
 
 ## Animation
 
-All animations will be done in Unreal Engine.
+All animations will be done in Unreal Engine and Blender.
 
 ### Sube
 
@@ -394,7 +395,7 @@ It will fade-out the game and fade-in the new location.
 The intro will be a simple cutscene that will show the player the story of the game.
 It will be a cutscene with the human preparing a coffee.
 The human will put the coffee in the machine and the machine will start to make the coffee.
-The human will have a phone call and will leave the coffee.
+Once the coffee is ready, the human will receive a phone call and leave the coffee at the end of the kitchen worktop.
 This is when Sube will get out of the sugar bag and will start to move.
 
 # Level
@@ -418,7 +419,7 @@ That's when the level starts.
 
 If the player fall of the desk, he will die and will be teleported to the start of the level.
 
-If the player doesn't move for 5 seconds, a hint dialogue will appear.
+If the player doesn't move for 5 seconds at first, a hint dialogue will appear. (Once triggered it will not show up)
 The hint dialogue will be a simple dialogue box with a text.
 It will explain to the player that he can move by pressing the ZQSD keys.
 
