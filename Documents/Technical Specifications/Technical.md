@@ -114,7 +114,6 @@ We also need to expand storage space for our project ( due to the size of the as
 
 - Perforce doesn't solve the problem (Files still to big for Github).
 - Self-hosted Gitlab doesn't solve the problem (Won't appear on Github).
-- Self-hosted Github doesn't solve the problem (Won't appear on Github).
 - Private External SSD doesn't solve the problem (Won't appear on Github and limit to 1 person working).
 
 # Convention
@@ -122,7 +121,7 @@ We also need to expand storage space for our project ( due to the size of the as
 ## Naming
 
 Folders, files, Class, functions, variables must be named in English and in Pascal Snake Case.
-Everythings must be in English and have a meaningfull name.
+Everything must be in English and have a meaningful name.
 
 ## Folder / File
 
@@ -142,7 +141,7 @@ They will be in the 'Blueprint' folder. Except for blueprints imported with an a
 
 ### Branch
 
-Each branch must be named in English and have a meaningfull name.
+Each branch must be named in English and have a meaningful name.
 There will be a branch for:
 
 - The main branch
