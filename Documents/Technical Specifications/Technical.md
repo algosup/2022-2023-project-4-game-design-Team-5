@@ -132,6 +132,10 @@ Created textures will be in 'Texture' folder.
 Created animations will be in 'Animation' folder.
 Created sounds will be in 'Sound' folder.
 
+![Folder Structure](../Pictures/tree.png)
+
+If any folders needs to be added beside this one, feel free to add it as long as it respects the logic.
+
 ## Blueprint
 
 Blueprints must be named in English and in Pascal Snake Case.
