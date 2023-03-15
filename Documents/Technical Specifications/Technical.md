@@ -100,6 +100,7 @@ As well as the tools we will use.
 | **Level**: | A map of the game |
 | **Blur**: | A visual effect that makes the image blurry |
 | **Lore**: | A story that is not directly related to the gameplay |
+| **TPS**: | Third Person Shooter |
 
 # Requirements
 
@@ -428,7 +429,7 @@ This is when Sube will get out of the sugar bag and will start to move.
 
 ### Level 1
 The first level will be a simple level with a start and an end.
-It will help the player to get used to the game and the controls.
+It will help the player to get used to the game and the [controls](#movement).
 The level will take place on the work plan near the sink.
 
 It will start by a small cutscene that will show a human preparing a coffee.
@@ -441,15 +442,15 @@ That's when the level starts.
 
 ![Level 1 map](../Pictures/Level_1.png)
 
-If the player fall of the desk, he will die and will be teleported to the start of the level.
+If the player fall of the desk, he will die and will be teleported to the start of the level (cf [Death by falling](#death-by-falling)).
 
-If the player doesn't move for 5 seconds at first, a hint dialogue will appear. (Once triggered it will not show up)
+If the player doesn't move for 5 seconds at first, a hint dialogue will appear. (Once triggered it will not show up) (cf [Help dialogue](#help-dialogue))
 The hint dialogue will be a simple dialogue box with a text.
-It will explain to the player that he can move by pressing the ZQSD keys.
+It will explain to the player that he can move by pressing the ZQSD keys (cf [Movement](#movement)).
 
 ### Level 2
 The second level will be a simple level with a start and an end.
-It will introduce the player to the water feature.
+It will introduce the player to the water feature (cf [Water](#death-by-water)).
 The level will take place on the work plan near the sink and around the sink.
 
 It will start by a small cutscene that will show a human moving the coffee cup to the other side of the sink.
@@ -458,22 +459,22 @@ That's when the level starts.
 
 ![Level 2 map](../Pictures/Level_2.png)
 
-If the player fall of the desk, he will die and will be teleported to the start of the level.
+If the player fall of the desk, he will die and will be teleported to the start of the level (cf [Death by falling](#death-by-falling)).
 There is 2 path possible.
 
 - the first one is in the 'void' side of the desk, it is the intended path.
 - the second one is on the wall side of the desk, it is the unintended path.
 
-On the first path, the player will go through water and will be able to go through it because it will be a small amount of water. 
+On the first path, the player will go through water and will be able to go through it because it will be a small amount of water (cf [Water](#death-by-water)).
 If the player stay less than 3 seconds in the water, he will go through it and be able to reach the end of the level.
 
-On the second path, the player will go through water and won't be able to go through it because it will be a big amount of water.
+On the second path, the player will go through water and won't be able to go through it because it will be a big amount of water (cf [Water](#death-by-water)).
 It will take more than 3 seconds to go through it. Which means that the player will die.
 
 ### Level 3
 
 The third level will be a simple level with a start and an end.
-It will introduce the player to the sticky feature.
+It will introduce the player to the sticky feature (cf [Sticky](#sticky)).
 The level will take place on the floor near the coffee table.
 
 It will start with a small cutscene that will show a human taking is coffee and moving it to the coffee table.
@@ -483,13 +484,13 @@ That's when the level starts and we take control of Sube.
 
 ![Level 3 map](../Pictures/Level_3.png)
 
-In this level, the player will have to go through the sticky feature.
+In this level, the player will have to go through the sticky feature (cf [Sticky](#sticky)).
 He will have to go on the right side of the sofa to climb the wall.
 He will then have to get on the sofa to reach the coffee table.
 
-If the player fall of the sofa, he will die and will be teleported to the start of the level.
+If the player fall of the sofa, he will die and will be teleported to the start of the level (cf [Death by falling](#death-by-falling)).
 
-If the player go on the left side of the sofa (Floor), he will meet an old sugar cube.
+If the player go on the left side of the sofa (Floor), he will meet an old sugar cube (cf [NPC](#npc)).
 The old sugar cube will be a simple sugar cube that will be stuck to the floor.
 By pressing the interaction key, he will be able to talk to him.
 The old sugar cube will tell him that he is exausted and that he can't move anymore.
