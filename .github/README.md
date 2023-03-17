@@ -2,10 +2,10 @@
 
 ## Documents 
 
-- [Functional Specification](https://github.com/algosup/2022-2023-project-4-game-design-Team-5/blob/Documents/)
-- [Technical Specification](https://github.com/algosup/2022-2023-project-4-game-design-Team-5/blob/Documents/)
-- [QA: Issue Templates](https://github.com/algosup/2022-2023-project-4-game-design-Team-5/blob/.github/ISSUE_TEMPLATE/)
-- [QA: Pull Request Template](https://github.com/algosup/2022-2023-project-4-game-design-Team-5/blob/.github/PULL_REQUEST_TEMPLATE.md)
+- [Functional Specification](https://github.com/algosup/2022-2023-project-4-game-design-Team-5/blob/main/Documents/Functional_Specifications.md)
+- [Technical Specification](https://github.com/algosup/2022-2023-project-4-game-design-Team-5/blob/main/Documents/Technical%20Specifications/Technical.md)
+- [QA: Issue Templates](https://github.com/algosup/2022-2023-project-4-game-design-Team-5/tree/main/.github/ISSUE_TEMPLATE)
+- [QA: Pull Request Template](https://github.com/algosup/2022-2023-project-4-game-design-Team-5/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
 
 ## Project Team
 
