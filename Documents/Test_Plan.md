@@ -19,7 +19,7 @@ The testing environment includes:
 ## Test Strategy
 
 The testing approach includes functional, performance, and security testing (especially crash).
-The testing team will use the Unreal Engine 4 built-in testing tools along with external tools such as other recommended tools listed in the [official Unreal Engine 4.26 documentation](https://docs.unrealengine.com/4.26/en-US/TestingAndOptimization/) to support testing.
+The testing team will use the Unreal Engine 4 built-in testing tools along with external tools such as other recommended tools listed in the [official Unreal Engine 4.27 documentation](https://docs.unrealengine.com/4.27/en-US/TestingAndOptimization/) to support testing.
 
 The roles and responsibilities of the testing team are defined as follows:
 - Quality Assurance team: responsible for executing test cases and reporting defects
