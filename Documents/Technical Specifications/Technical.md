@@ -18,18 +18,18 @@ Table of content
     - [Commit](#commit)
     - [Pull Request](#pull-request)
     - [Issue](#issue)
-- [Asset](#asset)
-  - [Environment](#environment)
-  - [Character](#character)
+  - [Assets](#assets)
+    - [Environment](#environment)
+  - [Characters](#characters)
     - [Sube](#sube)
-    - [NPC](#npc)
+    - [NPCs](#npcs)
   - [Plugin](#plugin)
-- [Gameplay](#gameplay)
-  - [Objective](#objective)
-  - [Camera](#camera)
+  - [Gameplay](#gameplay)
+    - [Objectives](#objectives)
+    - [Camera](#camera)
   - [Mechanics](#mechanics)
     - [Movement](#movement)
-    - [Obstacle](#obstacle)
+    - [Obstacles](#obstacles)
     - [Sticky](#sticky)
     - [Catapult](#catapult)
     - [Teleport](#teleport)
@@ -48,8 +48,8 @@ Table of content
   - [Audio](#audio)
     - [Music](#music)
   - [Animation](#animation)
-    - [Sube](#sube-1)
-    - [Catapult](#catapult-1)
+    - [Sube](#sube)
+    - [Catapult](#catapult)
     - [Teleporter](#teleporter)
   - [Cutscene](#cutscene)
     - [Intro](#intro)
@@ -60,10 +60,10 @@ Table of content
     - [Level 3](#level-3)
   - [Lighting](#lighting)
 - [Softwares](#softwares)
-  - [Unreal Engine](#unreal-engine-1)
+  - [Unreal Engine](#unreal-engine)
   - [Epic Games Marketplace](#epic-games-marketplace)
   - [Visual Studio](#visual-studio)
-  - [Git](#git-1)
+  - [Git](#git)
   - [Blender](#blender)
 
 </details>
@@ -73,34 +73,34 @@ Table of content
 ## Introduction
 
 The goal of this document is to define the technical specifications of the project.
-It will be used to define the requirements and the conventions of the project.
-As well as the tools we will use.
+It will be used to define the requirements and the conventions of the project,
+as well as the tools we will use.
 
 ## Glossary
 
 | Term | Definition |
 | --- | --- |
-| **MVP**: | Minimum Viable Product |
-| **WIP**: | Work In Progress |
-| **Asset**: | A file that can be imported in Unreal Engine |
-| **Perforce**: | A version control system (Similar to Git) (cf [Link](https://www.perforce.com/products/helix-core)) |
-| **GitLab**: | A version control system (Similar to Github) (cf [Link](https://about.gitlab.com/)) |
-| **GitHub**: | A version control system (cf [Link](https://github.com/)) |
-| **Blueprint**: | A file that can be created in Unreal Engine |
-| **Material**: | A file that can be created in Unreal Engine |
-| **Texture**: | A file that can be created in Unreal Engine |
-| **Animation**: | A file that can be created in Unreal Engine |
-| **Plugin**: | A file that can be created in Unreal Engine |
-| **Sube**: | The main character of the game |
-| **NPC**: | Non-Playable Character |
-| **UI**: | User Interface |
-| **HUD**: | Heads-Up Display |
-| **Dialogue**: | A text that appears on the screen |
-| **Cutscene**: | A sequence of events that are not controlled by the player |
-| **Level**: | A map of the game |
-| **Blur**: | A visual effect that makes the image blurry |
-| **Lore**: | A story that is not directly related to the gameplay |
-| **TPS**: | Third Person Shooter |
+| **MVP** | Minimum Viable Product |
+| **WIP** | Work In Progress |
+| **Asset** | A file that can be imported into Unreal Engine |
+| **Perforce** | A version control system (similar to Git) (cf [Link](https://www.perforce.com/products/helix-core)) |
+| **GitLab** | A version control system (similar to Github) (cf [Link](https://about.gitlab.com/)) |
+| **GitHub** | A version control system (cf [Link](https://github.com/)) |
+| **Blueprint** | A visual scripting system used in Unreal Engine |
+| **Material** | A file used to define the look and feel of 3D objects in Unreal Engine |
+| **Texture** | A file used to define the surface properties of 3D objects in Unreal Engine |
+| **Animation** | A file used to define the movement of 3D objects in Unreal Engine |
+| **Plugin** | A file used to extend the functionality of Unreal Engine |
+| **Sube** | The main character of the game |
+| **NPC** | Non-Playable Character |
+| **UI** | User Interface |
+| **HUD** | Heads-Up Display |
+| **Dialogue** | Text that appears on the screen |
+| **Cutscene** | A sequence of events that are not controlled by the player |
+| **Level** | A map in the game |
+| **Blur** | A visual effect that makes the image blurry |
+| **Lore** | A story that is not directly related to the gameplay |
+| **TPS** | Third Person Shooter |
 
 # Requirements
 
@@ -111,36 +111,35 @@ We must use Unreal Engine 4.27.
 ## Github
 
 We must use Github to manage our project.
-We also need to expand storage space for our project ( due to the size of the assets ).
+We also need to expand storage space for our project (due to the size of the assets).
 
-- Perforce doesn't solve the problem (Files still to big for Github).
+- Perforce doesn't solve the problem (Files still too big for Github).
 - Self-hosted Gitlab doesn't solve the problem (Won't appear on Github).
-- Private External SSD doesn't solve the problem (Won't appear on Github and limit to 1 person working).
+- Private External SSD doesn't solve the problem (Won't appear on Github and limits to one person working).
 
 # Convention
 
 ## Naming
 
-Folders, files, Class, functions, variables must be named in English and in Pascal Snake Case.
-Everything must be in English and have a meaningful name.
+Folders, files, classes, functions, and variables must be named in English and in PascalCase. Everything must be in English and have a meaningful name.
 
 ## Folder / File
 
 Imported assets will be in their own folder.
-Created blueprints will be in 'Blueprint' folder.
-Created materials will be in 'Material' folder.
-Created textures will be in 'Texture' folder.
-Created animations will be in 'Animation' folder.
-Created sounds will be in 'Sound' folder.
+Created blueprints will be in the 'Blueprint' folder.
+Created materials will be in the 'Material' folder.
+Created textures will be in the 'Texture' folder.
+Created animations will be in the 'Animation' folder.
+Created sounds will be in the 'Sound' folder.
 
 ![Folder Structure](../Pictures/tree.png)
 
-If any folders needs to be added beside this one, feel free to add it as long as it respects the logic.
+If any folders need to be added beside this one, feel free to add it as long as it respects the logic.
 
 ## Blueprint
 
-Blueprints must be named in English and in Pascal Snake Case.
-They will be in the 'Blueprint' folder. Except for blueprints imported with an asset.
+Blueprints must be named in English and in PascalCase.
+They will be in the 'Blueprint' folder, except for blueprints imported with an asset.
 
 ## Git
 
@@ -150,79 +149,67 @@ Each branch must be named in English and have a meaningful name.
 There will be a branch for:
 
 - The main branch
-- MVP Branch
+- MVP branch
 - Demo branch
-- One for each Functionalities
+- One for each functionality
 
 ### Commit
 
 Each commit must be named in English and have a meaningful name.
 Multiple commits can be done in one branch.
-Commit as much as possible, it will help us to keep track of the changes.
+Commit as much as possible; it will help us keep track of the changes.
 You can commit WIP code, as long as it's not merged in the main branch.
 
 ### Pull Request
 
-Each pull request must be named in English and have a meaningful name.
-Each pull request must be reviewed and approved by at least one other person.
-Each pull request must be merged by the person who created it or by a *maintainer*.
+Each pull request must have a meaningful and descriptive title written in English.
+Each pull request must be reviewed and approved by at least one other person before merging.
+Pull requests should be merged by either the person who created it or by a project maintainer.
 Each pull request must have a description of the changes made.
 
 ### Issue
 
-Each issue must be named in English and have a meaningful name.
+Each issue must have a meaningful and descriptive title written in English.
 Each issue must be assigned to a person.
-Each issue must have a description of the problem (c.f [Issues](https://github.com/algosup/2022-2023-project-4-game-design-Team-5/issues)).
+Each issue must have a clear description of the problem (see [Issues](https://github.com/algosup/2022-2023-project-4-game-design-Team-5/issues)).
 
-# Asset
+## Assets
 
-## Environment
+### Environment
 
-The house asset is from the Unreal Engine Marketplace. It is a triplex house with a lot of rooms and a garden. The asset is free to use for non-commercial projects. The asset is available [here](https://www.unrealengine.com/marketplace/en-US/product/big-triplex-house-villa).
-It's already made and we can use it as a base for our game.
-All materials and textures are already made and applied to the asset.
+The triplex house asset used in the game is from the Unreal Engine Marketplace. It is free to use for non-commercial projects and can be found [here](https://www.unrealengine.com/marketplace/en-US/product/big-triplex-house-villa). The asset is already made and will serve as a base for our game. All materials and textures are already applied to the asset.
 
-## Character
+## Characters
 
 ### Sube
 
-Sube is the main character and is a sugar cube.
-For the MVP, Sube will be a simple cube with a material of sugar applied to it.
-For the final version, Sube will be a 3D model of a sugar cube with a material of sugar applied to it. It will have to be designed by our team on Blender.
+Sube is the main character in the game and is a sugar cube. For the MVP, Sube will be a simple cube with a material of sugar applied to it. For the final version, Sube will be a 3D model of a sugar cube with a sugar material applied to it. The model will be designed by our team using Blender.
 
-### NPC
+### NPCs
 
-Npc will be other sugar cubes that will be used to interact with the player.
-It may be used to give the player a hint or lore about the game.
-For the MVP, NPCs will be simple cubes with a material of sugar applied to it.
-For the final version, NPCs will be a 3D model of a sugar cube with a material of sugar applied to it. They will also be designed by our team on Blender.
+NPCs will be other sugar cubes that players will interact with in the game. They may provide hints or lore. For the MVP, NPCs will be simple cubes with a material of sugar applied to them. For the final version, NPCs will be 3D models of sugar cubes with a sugar material applied to them. They will also be designed by our team using Blender.
 
 ## Plugin
 
-Gravity change plugin is a plugin that allows us to change the gravity of the player. It is available [here](https://www.unrealengine.com/marketplace/en-US/product/directional-planet-gravity). It is free to use for non-commercial projects. It will be used for the sticky Functionality.
+The "Gravity Change Plugin" is a plugin that allows us to change the gravity of the player. It is available [here](https://www.unrealengine.com/marketplace/en-US/product/directional-planet-gravity) and is free to use for non-commercial projects. This plugin will be used for the "Sticky" functionality.
 
-# Gameplay
+## Gameplay
 
-## Objective
+### Objectives
 
-The objective of the game is to reach the cup of coffee. The cup of coffee is the end of the game.
-The game will be separated in levels. Each level will move the cup of coffee further away from the player.
+The objective of the game is to reach the cup of coffee, which marks the end of the game. The game will be divided into levels, and each level will move the cup of coffee further away from the player.
 
-## Camera
+### Camera
 
-The camera will be a third person camera. It will be placed behind the player and will follow it.
-The camera won't be able to rotate. It will always be in the same position.
+The camera will be a third-person camera positioned behind the player that will follow them. The camera will not rotate and will always be in the same position.
 
 ## Mechanics
 
-Each mechanics will be listed and explained in details here.
+The following mechanics will be included in the game:
 
 ### Movement
 
-The player will be able to move on 2 axis (X / Y by default).
-The player will be able to move at a constant speed.
-The player will be able to move in 4 directions (Up / Down / Left / Right).
-Each direction will be mapped to a key.
+The player will be able to move along two axes (X and Y by default) at a constant speed. The player will be able to move in four directions (Up, Down, Left, Right) using the following key mappings:
 
 | Key | Direction |
 | --- | --------- |
@@ -231,26 +218,24 @@ Each direction will be mapped to a key.
 | Q   | Left      |
 | D   | Right     |
 
-Each key when pressed will trigger a movement in the corresponding direction.
-They will also trigger the associated animation for the cube to move.
-While the cube is moving, any other interaction will be disabled to avoid unwanted behavior.
+Each key press will trigger a movement in the corresponding direction, as well as an animation showing the cube moving. While the cube is moving, other interactions will be disabled to avoid unwanted behavior.
 
-### Obstacle
+### Obstacles
 
 Obstacles will be placed in the level to prevent the player from reaching the cup of coffee.
-Obstacles will be items integrated in the environment and might take any forms ( Wall, plate, etc. ).
+Obstacles will be items integrated in the environment and might take any forms (Wall, plate, etc.).
 Each obstacle will have a collision box for the player to not glitch through it.
 Each obstacle will have a material to make it visible.
-Each obstacles placement and details will be define in the [Level section](#level).
+Each obstacle's placement and details will be defined in the [Level section](#level).
 
 ### Sticky
 
 Sticky will be a mechanic that will allow the player to stick to walls.
 It will be shown as a green particle effect on the wall as if the wall was dirty.
-It will activate when the player enter a special zone.
-And will stay activated as long as the player stay in that zone and follow the predefined path.
+It will activate when the player enters a special zone.
+And will stay activated as long as the player stays in that zone and follows the predefined path.
 The controls stay relative to the camera.
-It means old controls become as follow:
+It means old controls become as follows:
 
 | | Key | Action |
 | --- | --- | --- |
@@ -258,127 +243,129 @@ It means old controls become as follow:
 | Backward | S | Backward |
 | Left | Q | Down |
 | Right | D | Up |
-  
-If the player is sticked to a wall and decide to leave the predefined path, the sticky mechanic will be deactivated and the player will fall resulting in a death.
+
+If the player is stuck to a wall and decides to leave the predefined path, the sticky mechanic will be deactivated, and the player will fall resulting in a death.
 
 ### Catapult
 
 Catapult will be a mechanic that will allow the player to launch itself in the air.
 It will be represented as a spoon.
-It will activate when the player enter the back of the spoon.
+It will activate when the player enters the back of the spoon.
 It will launch the player in the direction of the spoon from point A to point B.
 
-There is no laucnh control, air control or gravity control.
-The controls will be desactivated while the player is in the air.
-The catapult have an animation.
+There is no launch control, air control, or gravity control.
+The controls will be deactivated while the player is in the air.
+The catapult has an animation.
 
-The catapult will be triggered by the player when he press the action key (E by default) while being in the back of the spoon.
+The catapult will be triggered by the player when they press the action key (E by default) while being in the back of the spoon.
 
 ### Teleport
 
 Teleport will be a mechanic that will allow the player to teleport to a specific location.
-It will be represented as mouse hole.
-It will activate when the player enter the mouse hole.
+It will be represented as a mouse hole.
+It will activate when the player enters the mouse hole.
 It will teleport the player to the other side of the mouse hole.
 Teleportation will be instantaneous.
-It will be one sided ( No come back ).
-It have an animation.
+It will be one-sided (No comeback).
+It has an animation.
 
 ### Death
 
-The player have multiple ways to die.
+The player has multiple ways to die.
 
 #### Death by falling
 
-The player will die if he fall from a height.
-For a better gameplay, the player will be teleported to the start of the level when he fall from a height.
+The player will die if they fall from a height.
+For better gameplay, the player will be teleported to the start of the level when they fall from a height.
 
 #### Death by water
 
-The player will die if he fall in the water.
+The player will die if they fall in the water.
 The player will be able to stay for a maximum of 3.00 seconds in the water before dying.
 This obstacle will be represented as a water puddle.
 To have the most realistic gameplay, the water will have to be placed on a straight surface.
-To keep the gameplay fluid, the player will be teleported to the start of the level when he fall in the water for more than 3.00 sec.
+To keep the gameplay fluid, the player will be teleported to the start of the level when they fall in the water for more than 3.00 sec.
 
 #### Death by heat
 
-The player will die if he stays in the heat for more than 5.00 sec.
+The player will die if they stay in the heat for more than 5.00 sec.
 This obstacle will be represented as a light source with *rays* to determine the surface heated by the corresponding light.
-To keep the gameplay fluid, the player will be teleported to the start of the level when he stay in the heat for more than 5.00 sec.
+To keep the gameplay fluid, the player will be teleported to the start of the level when they stay in the heat for more than 5.00 sec.
 
 ### Discuss
 
-The player will be able to discuss with other sugar cubes found on his path.
-The discussion will be triggered when the player enter a specific zone and press the interaction Key ( E ).
+The player will be able to discuss with other sugar cubes found on their path.
+The discussion will be triggered when the player enters a specific zone and presses the interaction key (E).
 The discussion will be represented as a text box.
-The discussion will be triggered by the player and will be a one way communication.
+The discussion will be triggered by the player and will be one-way communication.
 It will be used to give the player a hint or lore about the game.
 Each discussion will be triggered by a specific NPC.
-Each discussion will be unique and will depends on the level (cf [Level](#level)).
-The player will me able to trigger again the dialog if he press the trigger key again.
+Each discussion will be unique and will depend on the level (cf [Level](#level)).
+The player will be able to trigger the dialog again if they press the trigger key again.
 
 ## UI
 
 ### Main Menu
 
-The main menu will be the first screen the player will see when launching the game.
+The main menu will be the first screen the player sees when launching the game.
 The main menu will be a simple menu with a 'Campaign' button and an 'Exit' button.
 Background image:
 ![Background](../Pictures/menu.png)
 It is generated using [MidJourney](https://www.midjourney.com/).
 This image is under the license [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
-It's restricted to non-commercial use.
+It is restricted to non-commercial use.
 For each clickable button, there will be an asset for the normal state and another asset when it's hovered.
+
 | Idle button | Hovered button |
 | ----------- | -------------- |
 | ![Idle](../Pictures/button_bg.png) | ![Hovered](../Pictures/button_bg_hover.png) |
+
 Each button will be anchored to the left.
 The menu will be at 30% from the top of the screen.
-Buttons will be spaced by 30 pixels verticaly.
+Buttons will be spaced by 30 pixels vertically.
 
 ### Pause Menu
 
-Pause menu will be accessible by pressing the escape key while in game.
-The pause menu will be a simple menu with a 'Resume' button and a 'Exit' button.
+The pause menu will be accessible by pressing the escape key while in the game.
+The pause menu will be a simple menu with a 'Resume' button and an 'Exit' button.
 The background image will be the actual game with a blur of 30%.
 The menu will be at 30% from the top of the screen.
-Buttons will be spaced by 30 pixels verticaly.
+Buttons will be spaced by 30 pixels vertically.
 Each button will be anchored to the left.
 For each clickable button, there will be an asset for the normal state and another asset when it's hovered.
+
 | Idle button | Hovered button |
 | ----------- | -------------- |
 | ![Idle](../Pictures/button_bg.png) | ![Hovered](../Pictures/button_bg_hover.png) |
-
 
 ### HUD
 
 The HUD will display the player's current life state.
 It won't be displayed in the normal state.
 
-The HUD will only be displayed if the player enter Water or Heat.
-For the water, the HUD will fade-in when the player enter the water and fade-out when the player exit the water.
-For the heat, the HUD will fade-in when the player enter the heat and fade-out when the player exit the heat.
+The HUD will only be displayed if the player enters water or heat.
+For water, the HUD will fade-in when the player enters the water and fade-out when the player exits the water.
+For heat, the HUD will fade-in when the player enters the heat and fade-out when the player exits the heat.
 
-It will be an oerlay on the screen.
-It will take the entire screen.
-Center of screen will be less affected than the sides of the screen.
+It will be an overlay on the screen.
+It will take up the entire screen.
+The center of the screen will be less affected than the sides of the screen.
 It will slowly blur the screen.
-In white for the water.
-In orange for the heat.
+It will be in white for the water and in orange for the heat.
 
 ### Dialogue
 
 #### Help Dialogue
 
-The help dialogue will be a simple dialogue box with a text.
+The help dialogue will be a simple dialogue box with text.
 The text will be in the middle of the box.
 The box will be on the top right of the screen.
-The size of the box will depends on the content of the text.
+The size of the box will depend on the content of the text.
 The box will be anchored to the top right.
 
 The player won't be able to trigger the dialogue box manually.
-It would be automatically triggered if the player idle for more than 15.00 sec.
+It will be automatically triggered if the player idles for more than 15.00 sec.
+
 
 #### Lore Dialogue
 
