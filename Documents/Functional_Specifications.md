@@ -70,7 +70,7 @@ In this menu, the player will have the choice to start the game or to quit the g
 
 Here is the first version of the main menu of the prototype:
 
-![First Main Menu](https://github.com/algosup/2022-2023-project-4-game-design-Team-5/blob/Project_Documents/Documents/Pictures/menu_mock-up.png)
+![First Main Menu](./Pictures/menu_mock-up.png)
 
 ### Pause Menu
 
@@ -78,7 +78,7 @@ The Pause menu will be the menu that will appear when the player will pause the 
 
 Here is the first version of the pause menu from the prototype:
 
-![First Pause Menu](https://github.com/algosup/2022-2023-project-4-game-design-Team-5/blob/Project_Documents/Documents/Pictures/pause_mock-up.png)
+![First Pause Menu](./Pictures/pause_mock-up.png)
 
 ### Mechanics
 
