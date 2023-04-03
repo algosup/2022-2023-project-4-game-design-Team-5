@@ -163,6 +163,7 @@ Here is a list of the possible interactions between the different menus and the 
 | **Game Mechanics** | Choosing the mechanics that will be used in the game | Sticky, Catapult, Portals, Deadly objects | 2023-02-28 |
 | **Prototype Content** | Defining what should be part of the prototype | Movement, Map, Main Menu's buttons | 2023-03-06 |
 | **Demo Content** | Defining what should be part of the demo | Movement, Map, Main Menu's buttons, Pause Menu's buttons, Menus interactions, Level design ( 1 or 2 ), Game mechanics, Game over| 2023-03-15 |
+| **Game Map** | Defining the content of the map | We postponed the add of the house and focused on the very basic content for the levels | 2023-03-25 |
 
 
 
