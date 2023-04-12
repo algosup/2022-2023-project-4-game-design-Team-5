@@ -63,6 +63,8 @@ The QA team will use Github Issue to report on the testing progress and results,
 
 Each Github Issue will be tagged with appropriate labels, such as "bug", "enhancement", or "performance", to allow for easy categorization and sorting. The QA team will also use Github's @mention feature to notify relevant stakeholders of issues that require their attention.
 
+You can find the *Test Database* and bug report [here](https://github.com/algosup/2022-2023-project-4-game-design-Team-5/issues?q=is%3Aissue+label%3Abug).
+
 ## Risks and Mitigation
 
 Potential risks associated with testing the game include:
